@@ -2,7 +2,6 @@
 set -e
 sudo apt update
 sudo apt install wireguard
-sudo apt install -y openresolv
 read -p 'Enter Email ID: ' email
 read -p 'Enter Friendly Name: ' id
 read -p 'Enter API Key: ' api
